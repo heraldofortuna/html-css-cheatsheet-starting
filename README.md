@@ -40,7 +40,7 @@ In our example site, we used tables with columns for:
 
 Your site should utilize a custom color scheme. You can use any of the named CSS colors.
 
-Your site should use custom styles for any code such as HTML tags (like <h1>) or CSS properties or values (like font-family). Represent code using a monospace font family and a different background color.
+Your site should use custom styles for any code such as HTML tags (like h1) or CSS properties or values (like font-family). Represent code using a monospace font family and a different background color.
 
 ### Screenshot
 
