@@ -33,10 +33,10 @@ Your site uses HTML tables to display the documentation. Be sure to label the co
 
 In our example site, we used tables with columns for:
 
-a) The tag or attribute name.
-b) The actual formatted tag.
-c) A description of what to use the tag for.
-d) You can use these same columns or choose your own.
+- The tag or attribute name.
+- The actual formatted tag.
+- A description of what to use the tag for.
+- You can use these same columns or choose your own.
 
 Your site should utilize a custom color scheme. You can use any of the named CSS colors.
 
