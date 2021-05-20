@@ -1,5 +1,27 @@
+:root {
+  --purple-color-1: darkorchid;
+  --gray-color: gainsboro;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+.wrapper {
+  background-color: var(--gray-color);
+  min-height: 100vh;
+}
+
+.container {
+  background-color: darksalmon;
+  display: grid;
+  place-items: center;
+}
+
+/* Table styles */
+
+table {
+  border: 2px solid var(--purple-color-1);
 }
