@@ -1,6 +1,15 @@
-# Codecademy - Stats preview card component solution
+# Codecademy - Build Your Own Cheat Sheet
 
-This is a solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+Your project should document at least one HTML or CSS topic. In our example project, we documented the tags and attributes used in HTML tables layouts, but you can choose any HTML or CSS topic that you’ve learned so far—the sky is the limit!
+
+Possible topics could be:
+
+- HTML Tables
+- Other HTML tags
+- CSS selectors and specificity
+- Common CSS properties
+
+If you choose to document HTML tags, open the hint to see how to include HTML tags as text in your code.
 
 ## Table of contents
 
@@ -20,9 +29,18 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 ### The challenge
 
-Users should be able to:
+Your site uses HTML tables to display the documentation. Be sure to label the columns in your HTML.
 
-- View the optimal layout depending on their device's screen size
+In our example site, we used tables with columns for:
+
+- The tag or attribute name
+- The actual formatted tag (eg. <table>)
+- A description of what to use the tag for.
+- You can use these same columns or choose your own.
+
+Your site should utilize a custom color scheme. You can use any of the named CSS colors.
+
+Your site should use custom styles for any code such as HTML tags (like <h1>) or CSS properties or values (like font-family). Represent code using a monospace font family and a different background color.
 
 ### Screenshot
 
@@ -30,8 +48,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution Link](https://github.com/heraldofortuna/stats-preview-card-component-main)
-- [Live Site Link](https://heraldofortuna.github.io/stats-preview-card-component-main/)
+- [Solution Link](https://github.com/heraldofortuna/html-css-cheatsheet-starting)
+- [Live Site Link](https://heraldofortuna.github.io/html-css-cheatsheet-starting/)
 
 ## My process
 
@@ -39,43 +57,53 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
 
 ### What I learned
 
 ```html
-<div class="card__image">
-  <div class="card__image--color"></div>
-</div>
+<thead>
+  <tr>
+    <th>Tag</th>
+    <th>Name</th>
+    <th>Description</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td><span class="code">&lt;table&gt;</span></td>
+    <td>Table</td>
+    <td>The wrapper element for all HTML tables.</td>
+  </tr>
+</tbody>
+...
 ```
 
 ```css
-.card__image {
-  position: relative;
-  width: 100%;
-  height: 320px;
-  background-image: url("./images/image-header-mobile.jpg");
-  background-position: center;
-  background-size: cover;
-  border-radius: 8px 8px 0 0;
+table {
+  width: 95%;
+  border: 2px solid var(--purple-color-3);
 }
 
-@media (min-width: 800px) {
-  .card {
-    width: 85%;
-    display: flex;
-    flex-direction: row-reverse;
-  }
+thead {
+  background-color: var(--purple-color-2);
+}
+
+td {
+  border-top: 1px solid var(--purple-color-3);
+}
+
+th,
+td {
+  height: 20px;
+}
+
+.code {
+  background-color: var(--white-color);
+  font-family: monospace;
 }
 ```
 
-### Continued development
-
-I definitely need to work and study more on image containers. I'm having trouble accommodating them in different sizes.
-
 ## Author
 
-- Frontend Mentor - [heraldofortuna](https://www.frontendmentor.io/profile/heraldofortuna)
+- Codeacademy - [heraldofortuna](https://www.codecademy.com/profiles/heraldofortuna)
 - Twitter - [@heraldofortuna](https://twitter.com/heraldofortuna)
