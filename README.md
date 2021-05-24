@@ -103,7 +103,19 @@ td {
 }
 ```
 
+### Continued development
+
+Now I will continue with another Codecademy project.
+
+### Useful resources
+
+I used the guides found on codecademy website. Only that.
+
 ## Author
 
 - Codeacademy - [heraldofortuna](https://www.codecademy.com/profiles/heraldofortuna)
 - Twitter - [@heraldofortuna](https://twitter.com/heraldofortuna)
+
+## Acknowledgments
+
+No one in particular.
