@@ -118,4 +118,4 @@ I used the guides found on codecademy website. Only that.
 
 ## Acknowledgments
 
-No one in particular.
+To my father, for everything.
